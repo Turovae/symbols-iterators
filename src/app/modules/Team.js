@@ -7,11 +7,11 @@ export default class Team {
 
   [Symbol.iterator]() {
     return {
-      characters: Object.entries(this),
+      characters: Object.values(this),
       index: 0,
       next() {
         if (this.index < this.characters.length) {
-          return { done: false, value: this.characters[this.index++][1] };
+          return { done: false, value: this.characters[this.index++] };
         }
         return { done: true };
       },
