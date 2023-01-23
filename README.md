@@ -38,3 +38,4 @@ const char = {
 
 ---
 
+[![Build status](https://ci.appveyor.com/api/projects/status/kft4uvw95fjv8byk?svg=true)](https://ci.appveyor.com/project/Turovae/symbols-iterators)
